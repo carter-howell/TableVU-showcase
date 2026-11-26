@@ -77,28 +77,6 @@ These are implementation measures, not a claim that the application is immune to
 
 Order alerts depend on an open dashboard and browser behavior. They are not a closed-tab push notification service. Payment and payout availability also depend on the connected Stripe account's verification and configuration.
 
-## What I Learned
-
-This project gave me practice turning a restaurant website into a connected operational workflow. I worked through menu editing, cart persistence, item customizations, mobile layout constraints, live order status, and the relationship between a customer's checkout and the restaurant's order queue.
-
-It also gave me experience with multi-tenant application design: resolving restaurant domains, isolating data, separating owner and platform permissions, and keeping branding consistent across public and staff pages.
-
-The payment integration required thinking beyond a successful checkout screen. I worked through connected-account onboarding, configurable platform fees, sandbox versus live configuration, webhook-driven order creation, refunds, and the difference between a payment split and a bank payout.
-
-## Ongoing Work
-
-- Continue improving mobile usability and dashboard responsiveness
-- Strengthen automated regression coverage for ordering, permissions, and payment edge cases
-- Improve per-domain search metadata and server-rendered restaurant discovery
-- Refine browser notification behavior and operational monitoring
-- Simplify restaurant onboarding and staff training
-
-## Repository
-
-This is a public project showcase containing documentation only. The application source code is maintained privately.
-
-This repository does not include application code, deployment configuration, credentials, database exports, customer orders, restaurant financial records, or private account information. It is not an installable distribution of TableVU.
-
 ## Portfolio
 
 Live site: [TableVU](https://tablevu.web.app)
