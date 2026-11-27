@@ -8,6 +8,8 @@ The goal is to make direct online ordering simple: open the menu, choose items a
 
 Live site: [TableVU](https://tablevu.web.app)
 
+![TableVU landing page with restaurant menu preview](media/tablevu-home.png)
+
 ## Overview
 
 TableVU combines a customer-facing menu and cart with restaurant management, a live orders dashboard, and platform administration. Restaurants share the application but have separate domains, branding, menus, access permissions, and payment connections.
@@ -28,6 +30,8 @@ The business model removes the upfront website build fee in favor of a percentag
 - Mobile and desktop layouts built around the ordering flow
 
 ## Restaurant Tools
+
+![TableVU website overview of ordering and restaurant features](media/tablevu-features.png)
 
 Restaurant staff sign in with Google and receive access to the restaurants assigned to their accounts.
 
